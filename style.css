@@ -1,0 +1,110 @@
+body {
+    font-family: 'Cutive Mono'; sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav h2 {
+    float: left;
+    color: #fff;
+    text-shadow: 6px 7px 4px rgba(0,0,0,0.8);
+    margin-left: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav-items {
+    float: right;
+    font-size: 26px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.feature {
+    background-repeat: no-repeat;
+    padding-top: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+video {
+    width: 100%;
+}
+
+.first-panel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.panel p {
+    margin: 0;
+    background: rgba(255,255,255, 0.8);
+    text-align: center;
+    padding: 65px;
+    font-weight: bold;
+
+}
+
+.first-feature {
+    background-image: url("https://ununsplash.imgix.net/uploads/1411115362846f0257a48/3f4eb74a?q=75&fm=jpg&s=15087518f9f4fccf7b7f6f1e73330099");
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.first-feature h2  {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: block;
+    top: 35%;
+    text-decoration: bold;
+    color: #fff;
+    text-shadow: 6px 7px 4px rgba(0,0,0,0.8);
+    text-transform: uppercase;
+    font-size: 2.3em;
+
+}
+
+.second-feature {
+    background-image: url("img/Brad.jpg");
+}
+
+
+.third-feature {
+    background-image: url("img/Building Exterior.jpg");
+    background-position: center top;
+}
+
+.third-panel a {
+    color: black;
+}
+
+.third-panel a:hover {
+    color: white;
+}
+
+.feature h1 {
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+}
+
